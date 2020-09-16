@@ -1,0 +1,50 @@
+/*CSS reset settings here*/
+*{
+    border-radius: 15px;
+}
+
+#wrapper {
+    height: 575px;
+    width: 1200px;
+    padding: 20px;
+    background-color: rgb(40, 64, 100);
+    margin: 0px auto;
+    color: rgb(199, 211, 233);
+}
+
+#header {
+    height: 50px;
+    background-color: rgb(207, 59, 59);
+}
+
+#mainstuff {
+    margin-top: 10px;
+    height: 500px;    
+
+}
+
+#navigation,
+#main_content {
+    display: inline-block;
+}
+
+#navigation {
+    height: 300px;
+    width: 200px;
+    vertical-align: top;
+    background-color: rgb(55, 141, 141);
+}
+
+#main_content {
+    margin-left: 20px;
+    padding: 0;
+    width: 975px;
+    height: 400px;
+    background-color: rgb(37, 35, 35);    
+}
+
+#footer {
+    margin-top: 30px;
+    height: 90px;
+    background-color: rgb(109, 103, 103);
+}
