@@ -1,18 +1,16 @@
 /*CSS reset settings here*/
 * {
-    border-radius: 15px;
-    font-family: 'Montserrat', sans-serif;
+    border-radius: 15px;    
 }
 
 a:link {
-    color: rgb(135, 196, 231);
+    color: #56D1E4;
 }
 
 h1,
 h2,
 #main_content p {
     margin-left: 20px;
-
 }
 
 h1 {
@@ -25,9 +23,13 @@ h2 {
     font-size: 20px;
 }
 
-/* p {
-    font-size: 10px;
-} */
+ul li ul li{
+    margin-left: -25px;
+}
+
+code{
+    color:#6177F5;
+}
 
 #main_content ul li {
     font-size: 15px;
@@ -37,19 +39,20 @@ h2 {
     height: 600px;
     width: 970px;
     padding: 20px;
+    border-radius: 0;
     background-color: rgb(40, 64, 100);
     margin: 0px auto;
-    color: rgb(199, 211, 233);
+    color: #C2D6EB;
 }
 
 #header {
     height: 50px;
     line-height: 50px;
     font-size: 30px;
-    background-color: rgb(207, 59, 59);
+    background-color: #CF3036;
 }
 
-#mainstuff {
+#centerContent {
     margin-top: 10px;
     height: 600px;
 }
@@ -60,29 +63,33 @@ h2 {
 }
 
 #navigation {
-    height: 300px;
-    width: 180px;
+    height: 200px;
+    width: 190px;
     vertical-align: top;
-    background-color: rgb(62, 155, 155);
+    background-color: #297D8C;
     font-size: 12px;
 }
 
 #main_content {
     margin-left: 35px;
     padding: 0;
-    width: 750px;
-    height: 490px;
-    background-color: rgb(37, 35, 35);
+    width: 740px;
+    height: 475px;
+    background-color: #0E1822;
 }
 
 #footer {
     margin-top: 20px;
     height: 40px;
     line-height: 40px;
-    background-color: rgb(109, 103, 103);
+    background-color: #5D6673;
 }
 
 #footer p,
 #navTitle {
     margin-left: 20px;
+}
+
+#navTitle {
+    margin-bottom: -10px;
 }
